@@ -1,0 +1,62 @@
+.wrap {
+    display: flex;
+    margin-top: 4em;
+    justify-content: space-around;
+}
+
+.main-left {
+    padding-right: 10%;
+    border-right: solid 3px #fff;
+}
+
+.main-right {
+    margin-left: -40em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.project-list {
+
+}
+
+.project-list_item {
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 0.25em;
+}
+
+.tasks-list_item {
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 0.25em;
+}
+.people {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    border-top: solid 3px #fff;
+    border-bottom: solid 3px #fff;
+    margin-bottom: 1.5em;
+    padding: 0.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn-info {
+    width: 10em;
+    height: 3em;
+    cursor: pointer;
+    background: lightblue;
+    border-color: lightblue;
+    border-radius: 5px;
+}
+
+.btn-info:hover {
+    background: #2dea7c;
+    border-color: lightblue;
+
+}

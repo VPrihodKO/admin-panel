@@ -1,0 +1,123 @@
+.wrap {
+    display: flex;
+    margin-top: 4em;
+    justify-content: space-around;
+}
+
+.main-left {
+    padding-right: 13%;
+    border-right: solid 3px #fff;
+    margin-left: 4em;
+}
+
+.main-right {
+    /*margin-left: -14em;*/
+    margin-right: 4em;
+}
+
+.info {
+    width: 20em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.tasks {
+    padding: 1em;
+    margin: 1em 1em 1em 0;
+    border: 3px solid #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.tasks-list_item {
+    padding: 0.25em;
+}
+
+.assignee_status {
+    margin-left: -3em;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.status-text {
+    display: block;
+    margin-left: 3em;
+}
+
+.man {
+    display: inline-block;
+    position: relative;
+    width: 0.7em; /* ширина элемента */
+    height: 1.25em; /* высота элемента */
+    padding-right: 1em;
+}
+.man::before,
+.man::after {
+    content: "";
+    position: absolute;
+    background: currentColor; /* цвет иконки как цвет текста */
+}
+.man::before {
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+.man::after {
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    height: 40%;
+    border-radius: 100% 100% 0% 0%;
+}
+
+.tracker-button {
+    width: 3em;
+    height: 3em;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+    background: #871901;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-left: 8em;
+    margin-top: -0.8em;
+}
+
+.tracker-button:hover {
+    background: #ff0000;
+}
+
+.description {
+    width: 20em;
+    border: 3px solid #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em 1em 1em 0;
+}
+
+.comments {
+    border: 3px solid #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em 1em 1em 0;
+}
